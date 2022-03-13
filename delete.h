@@ -1,5 +1,5 @@
-#ifndef header_h
-#define header_h
+#ifndef delete_H
+#define delete_H
 
 void delete_rows();
 int destroy_file(char);
