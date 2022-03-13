@@ -42,7 +42,7 @@ void delete_file(){
     bool statusFile;
     printf("\t\tMasukkan nama file yang akan dihapus: ");
     scanf("%s", namaFile);
-    statusFile = destroyFile(namaFile);
+    statusFile = destroy_file(namaFile);
     if (statusFile == true){
         printf("File : %s berhasil dihapus\n", namaFile);
     } else  {
@@ -57,4 +57,4 @@ int destroy_file(char nama_file_temp[30]) {
     } else {
         return false;
     }
-
+}
